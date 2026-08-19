@@ -1,7 +1,7 @@
 name: Verificar
 on: [push]
 jobs:
-verificar:
+  verificar:
     runs-on: ubuntu-latest
     
     steps:
