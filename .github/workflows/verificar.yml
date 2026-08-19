@@ -1,4 +1,4 @@
-name: Verificar
+name: Verificar site
 on: [push]
 jobs:
   verificar:
