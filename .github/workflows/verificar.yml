@@ -1,13 +1,11 @@
-name: Verificar site
-
+name: Verificar
 on: [push]
-
-  jobs:
-    verificar:
-      runs-on: ubuntu-latest
+jobs:
+verificar:
+    runs-on: ubuntu-latest
     
-      steps:
-        - uses: actions/checkout@v4
+    steps:
+      - uses: actions/checkout@v4
 
-        - name: Verificar index.html
-            run: test -f index.html
+      - name: Verificar index.html
+        run: test -f index.html
